@@ -1,0 +1,133 @@
+body{
+    margin: 0;
+ }
+
+header{
+    background: black;
+    color: white;
+    margin: 0;
+    padding: 8px 0px 6px 40px;
+    height:60px;
+    
+}
+header h1{
+    font-size: 50px;
+    font-weight: 400;
+    float: left;   
+    margin-left: 0;
+    margin-top: 0;
+}
+nav ul{
+    display: inline;
+    float: left;
+    padding: 0;
+    margin-left: 700px;
+    margin-right: 40px;
+    padding-top: 0px;
+    
+   
+}
+nav ul li{
+    line-height: 30px;
+    background: black;
+    border: 1px solid white;
+    display: inline-block;
+    list-style-type: none;
+    float: left;
+    margin-left: 20px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 0 10px; 
+}
+nav ul li:hover{
+     background: yellow;
+}
+nav ul li a{
+    color: green;
+    text-decoration: none;
+    
+}
+
+
+.divider{
+    background-color: red;
+    height: 5px;
+}
+.image{
+    
+    background-image: url("blood1.jpg");
+     width: 100%;
+    height: 120%;
+    background-repeat: no-repeat;
+    background-size: cover;
+   margin:0;
+   
+   
+}
+.image1{
+    padding-left: 20px;
+}
+.button{
+    background: red;
+    padding: 0px 10px 0px 10px;
+   border-radius: 20px;
+    font-size: 15px;
+    margin-left: 600px;
+    
+    color: black;
+    border: none;
+    cursor: pointer;
+}
+.button:hover{
+    background: red;
+}
+.buttonlogin{
+    font-size: 15px;
+    background: white;
+    color: black;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.buttonlogin:hover{
+    background: blue;
+}
+.register{
+    margin-top: 20px;
+     width: 450px;
+    height: 600px;
+    background: rgba(0,0,0,0.5);
+     
+    color: #fff;
+    top: 70%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 40px 30px;
+}
+.register table{
+    margin: 40px;
+    padding: 0;
+    
+}
+#table{
+    color:white;
+}
+#sub{
+    margin-left: 170px;
+    margin-top: 10px;
+     border: none;
+    outline: none;
+    height:40px;
+    background: brown;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+#sub:hover{
+    
+    cursor: pointer;
+    background: #39dc79;
+    color: #000;
+}

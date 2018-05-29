@@ -1,0 +1,106 @@
+body{
+  
+    margin: 0;
+  
+}
+header{
+    background: black;
+    color: white;
+    margin: 0;
+    padding: 8px 0px 6px 40px;
+    height:60px;
+    
+}
+header h1{
+    font-size: 50px;
+    font-weight: 400;
+    float: left;   
+    margin-left: 0;
+    margin-top: 0;
+}
+nav ul{
+    display: inline;
+    float: left;
+    padding: 0;
+    margin-left: 500px;
+    margin-right: 40px;
+    padding-top: 0px;
+    
+   
+}
+nav ul li{
+    display: inline-block;
+    list-style-type: none;
+    float: left;
+    margin-left: 35px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    
+}
+.homered{
+background: red;
+padding: 10px 10px 11px 10px;
+
+}
+.homeblue:hover{
+    background: blue;
+    padding: 10px 10px 11px 10px;
+    opacity: 0.5;
+}
+.divider{
+    background-color: red;
+    height: 5px;
+}
+.image{
+    background-image: url("back1.jpg");
+     width: 100%;
+    height: 100%;
+   background-size: cover;
+   background-repeat: no-repeat;
+
+}
+.image1{
+    padding-left: 20px;
+}
+.button{
+    
+    font-size: 15px;
+    margin-left: 600px;
+    background: white;
+    color: black;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.button:hover{
+    background: red;
+}
+.buttonlogin{
+    font-size: 15px;
+    background: white;
+    color: black;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    float: right;
+}
+.buttonlogin:hover{
+    background: red;
+    
+}
+.Htd{   
+    margin-top: 80px;
+    position:absolute;
+    margin-right:  70px;
+    padding-left: 200px;
+    text-align: center;
+    color: white; 
+}
+#content{
+    text-align: justify;
+    margin-right: 50px;
+    padding-top: 20px;
+    font-size: 20px;
+}

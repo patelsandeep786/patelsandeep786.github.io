@@ -1,0 +1,107 @@
+body {
+
+	margin:0;
+
+}
+header{
+	background-color: black;
+	color: white;
+	height:50px;
+	padding: 10px 0px 0px 40px;
+
+
+}
+
+header h1 {
+	margin:0;
+	font-size: 35px;
+	font-weight: bolder;
+	display: inline;
+	margin-top:5px;
+	float: left;
+
+
+
+
+}
+
+nav ul{
+	display: inline;
+	padding: 3px 0px 10px 40px;
+	
+}
+
+nav ul li{
+
+	display: inline-block;
+	text-decoration-style: none;
+	list-style-type: none;
+	font-size: 21px;
+	padding: 12px 20px 10px 20px;
+
+}
+nav ul li a{
+	color: white;
+	text-decoration: none;
+
+}
+
+#one {
+	background-color: red;
+	height:5px;
+}
+
+#bred {
+
+	background-color: red;
+	color: white;
+	padding: 5px 8px 10px 8px;
+	cursor: pointer;
+}
+
+#bblue:hover{
+	background-color: blue;
+	color: white;
+	padding: 5px 8px 10px 8px;
+	cursor: pointer;
+}
+#b2:active{
+	background-color: tomato;
+}
+	
+#bblue:active{
+	background-color: red;
+	color: white;
+	padding: 5px 8px 10px 8px;	
+	cursor: pointer;
+}
+
+
+#b1 {
+	margin: 8px 10px 3px 5px;
+	float: right;
+	padding: 5px 20px 5px 20px;
+	cursor: pointer;
+	border-radius: 5px;
+	font-weight: bolder;
+
+}
+
+#b1:hover {
+	background-color: tomato;
+}
+
+
+#b2 {
+	margin: 8px 10px 3px 5px;
+	float: right;
+	padding: 5px 20px 5px 20px;
+	cursor: pointer;
+	border-radius: 5px;
+	font-weight: bolder;
+}
+
+#b2:hover {
+	background-color: tomato;
+}
+
